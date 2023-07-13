@@ -82,7 +82,7 @@ p.danger {
 	color: red;
 }
 /************ Navbar Css ************/
-.container{
+.container, .aligh-items-center{
   display: flex;
   justify-content: space-around;
   margin-left: 30px;
