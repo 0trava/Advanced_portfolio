@@ -1,8 +1,8 @@
 {
-  "name": "react-homework-template",
+  "name": "advanced-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://0trava.github.io/react-Advanced_portfolio/",
+  "homepage": "https://0trava.github.io/Advanced_portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
