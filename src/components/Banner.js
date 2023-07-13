@@ -15,6 +15,8 @@ export const Banner = () => {
     const [index, setIndex] = useState(1);
     const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
     const period = 2000;
+
+    console.log(index);
   
     useEffect(() => {
       let ticker = setInterval(() => {
@@ -22,6 +24,7 @@ export const Banner = () => {
       }, delta);
   
       return () => { clearInterval(ticker) };
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [text])
   
     const tick = () => {
@@ -48,6 +51,8 @@ export const Banner = () => {
         setIndex(prevIndex => prevIndex + 1);
       }
     }
+
+    
   
     return (
       <section className="banner" id="home">
