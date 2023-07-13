@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import 'react-multi-carousel/lib/styles.css';
 
 export const Skills = () => {
@@ -35,7 +35,9 @@ export const Skills = () => {
                     Skills
                 </h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-
+                <Carousel responsive={responsive} infinite={true} className='skill-slider'>
+                    
+                </Carousel>
             </div>
             </Col>
         </Row>
