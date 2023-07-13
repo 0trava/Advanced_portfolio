@@ -84,11 +84,16 @@ p.danger {
 /************ Navbar Css ************/
 .container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-.App{
+
+.navbar-collapse {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav.navbar {
@@ -151,6 +156,8 @@ span.navbar-text {
 .social-icon a:hover::before {
     transform: scale(1);
 }
+
+
 .social-icon a img {
 	width: 40%;
 	z-index: 1;
