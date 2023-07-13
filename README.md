@@ -12,7 +12,8 @@ Website for a video lesson for practicing practical skills in working in React. 
 <h3>🌠 Initial commands:</h3>
 
 ~~~
-$ npm instal
+$ npm install
+$ npm install react-bootstrap bootstrap
 ~~~
 
 
