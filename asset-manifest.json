@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-Advanced_portfolio/static/css/main.022031f4.css",
-    "main.js": "/react-Advanced_portfolio/static/js/main.5f9f12f0.js",
-    "static/media/banner-bg.png": "/react-Advanced_portfolio/static/media/banner-bg.cc1273af450504afe755.png",
-    "static/media/CentraNo2-Bold.ttf": "/react-Advanced_portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
-    "static/media/CentraNo2-Medium.ttf": "/react-Advanced_portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/CentraNo2-Book.ttf": "/react-Advanced_portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/footer-bg.png": "/react-Advanced_portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/nav-icon3.svg": "/react-Advanced_portfolio/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
-    "static/media/logo.svg": "/react-Advanced_portfolio/static/media/logo.3c6c479cfa1d154dbfccd4d5f91320f4.svg",
-    "index.html": "/react-Advanced_portfolio/index.html",
-    "static/media/nav-icon1.svg": "/react-Advanced_portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
-    "static/media/nav-icon2.svg": "/react-Advanced_portfolio/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
-    "main.022031f4.css.map": "/react-Advanced_portfolio/static/css/main.022031f4.css.map",
-    "main.5f9f12f0.js.map": "/react-Advanced_portfolio/static/js/main.5f9f12f0.js.map"
+    "main.css": "/Advanced_portfolio/static/css/main.e0cf7e09.css",
+    "main.js": "/Advanced_portfolio/static/js/main.c8261a20.js",
+    "static/media/banner-bg.png": "/Advanced_portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/CentraNo2-Bold.ttf": "/Advanced_portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/Advanced_portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/Advanced_portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/Advanced_portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/nav-icon3.svg": "/Advanced_portfolio/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
+    "static/media/logo.svg": "/Advanced_portfolio/static/media/logo.3c6c479cfa1d154dbfccd4d5f91320f4.svg",
+    "index.html": "/Advanced_portfolio/index.html",
+    "static/media/nav-icon1.svg": "/Advanced_portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "static/media/nav-icon2.svg": "/Advanced_portfolio/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
+    "main.e0cf7e09.css.map": "/Advanced_portfolio/static/css/main.e0cf7e09.css.map",
+    "main.c8261a20.js.map": "/Advanced_portfolio/static/js/main.c8261a20.js.map"
   },
   "entrypoints": [
-    "static/css/main.022031f4.css",
-    "static/js/main.5f9f12f0.js"
+    "static/css/main.e0cf7e09.css",
+    "static/js/main.c8261a20.js"
   ]
 }
