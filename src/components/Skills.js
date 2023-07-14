@@ -1,10 +1,13 @@
 import React from 'react';
-import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import 'react-multi-carousel/lib/styles.css';
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp2.png";
+// import arrow1 from "../assets/img/arrow1.svg";
+// import arrow2 from "../assets/img/arrow2.svg";
+import Carousel from 'react-bootstrap/Carousel';
 
 export const Skills = () => {
     const responsive = {
@@ -40,27 +43,45 @@ export const Skills = () => {
                     Skills
                 </h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                <Carousel 
+                responsive={responsive} 
+                infinite={true} 
+                nextIcon = {">"}
+                prevLabel ={""}
+                prevIcon = {"<"}
+                nextLabel = {""}
+                className="owl-carousel owl-theme skill-slider"
+                >
+                    <Carousel.Item>
                     <div className='items'>
                         <img src={meter1} alt="Images1"/>
                         <h5>HTML + CSS</h5>
                     </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
                     <div className='items'>
                         <img src={meter2} alt="Images2"/>
                         <h5>Java Script</h5>
                     </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
                     <div className='items'>
                         <img src={meter3} alt="Images3"/>
                         <h5>React</h5>
                     </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
                     <div className='items'>
                         <img src={meter3} alt="Images4"/>
                         <h5>React native</h5>
                     </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
                     <div className='items'>
                         <img src={meter2} alt="Images5"/>
                         <h5>Node js</h5>
                     </div>
+                    </Carousel.Item>
                 </Carousel>
             </div>
             </Col>
