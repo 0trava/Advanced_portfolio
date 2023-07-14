@@ -373,6 +373,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
 }
+
+.projects-row {
+ display: flex;
+ flex-wrap: wrap;
+ 
+ gap: 20px;
+ justify-content: center;
+}
 .project p {
   color: #B8B8B8;
   font-size: 18px;
@@ -388,6 +396,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
+  display: flex;
 }
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;

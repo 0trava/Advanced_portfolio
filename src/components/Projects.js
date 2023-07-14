@@ -4,7 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import { ProjectCard } from './ProjectCard';
-
+import colorSharp from "../assets/img/color-sharp2.png";
 
 
 
@@ -66,7 +66,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content>
                     <Tab.Pane eventKey="first">
-                        <Row>
+                        <Row className='projects-row'>
                             {projects.map((project, index) => {
                                 return (
                                     <ProjectCard key={index} {...project} />
@@ -83,7 +83,7 @@ export const Projects = () => {
             </Row>
 
         </Container>
-        <img className='background-image-right' alt='background_image'/>
+        <img className='background-image-right' alt='background_image' src={colorSharp}/>
 
     </section>
   )
