@@ -3,6 +3,8 @@ import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import { ProjectCard } from './ProjectCard';
+
 
 
 
@@ -67,7 +69,7 @@ export const Projects = () => {
                         <Row>
                             {projects.map((project, index) => {
                                 return (
-                                    <p>{project.title}</p>
+                                    <ProjectCard key={index} {...project} />
                                 )
                             })}
                         </Row>
@@ -81,6 +83,7 @@ export const Projects = () => {
             </Row>
 
         </Container>
+        <img className='background-image-right' alt='background_image'/>
 
     </section>
   )
