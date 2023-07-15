@@ -14,6 +14,7 @@ Website for a video lesson for practicing practical skills in working in React. 
 ~~~
 $ npm install
 $ npm install react-bootstrap bootstrap
+$ npm instal express cors nodemailer
 ~~~
 
 
