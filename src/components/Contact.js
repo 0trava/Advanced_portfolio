@@ -23,7 +23,7 @@ export const Contact = () => {
         <Container>
             <Row className="align-items-center">
                 <Col md={6}>
-                    <img src={} />
+                    <img src={contactImg} />
                 </Col>
 
             </Row>
