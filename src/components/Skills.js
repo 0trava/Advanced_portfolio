@@ -44,17 +44,17 @@ export const Skills = () => {
                 <Carousel fade
                   responsive={responsive} 
                   infinite={true}
-                  slide={false} 
+                  controls={false}
                   // nextIcon = {">"}
                   // prevLabel ={""}
                   // prevIcon = {"<"}
                   // nextLabel = {""}
                   className="owl-carousel owl-theme skill-slider"
                   >
-                  <Carousel.Item>
+                  <Carousel.Item  interval={500}>
                   <img
                     className="d-block w-100"
-                    src={meter1}
+                    src={`${meter1}?text=First slide&bg=373940`}
                     alt="First slide"
                   />
                   <Carousel.Caption>
@@ -66,8 +66,8 @@ export const Skills = () => {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={meter2}
-                    alt="First slide"
+                    src={`${meter2}?text=Second slide&bg=373940`}
+                    alt="Second slide"
                   />
                   <Carousel.Caption>
                     <h3>Java Script</h3>
@@ -78,8 +78,8 @@ export const Skills = () => {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={meter2}
-                    alt="First slide"
+                    src={`${meter2}?text=Third slide&bg=373940`}
+                    alt="Third slide"
                   />
                   <Carousel.Caption>
                     <h3>React</h3>
