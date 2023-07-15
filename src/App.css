@@ -647,3 +647,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+
+.footer_block {
+  display: flex;
+}
+
+.footer_logo {
+ display: flex;
+ flex-direction: column;
+ width: 30vw;
+}
