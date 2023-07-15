@@ -39,49 +39,78 @@ export const Skills = () => {
         <Row>
             <Col>
             <div className='skill-bx'>
-                <h2>
-                    Skills
-                </h2>
+                <h2>Skills</h2>
                 <p>I like web development Web and deep learning.<br></br> Every day I try to raise my level of knowledge.</p>
-                <Carousel 
-                responsive={responsive} 
-                infinite={true} 
-                nextIcon = {">"}
-                prevLabel ={""}
-                prevIcon = {"<"}
-                nextLabel = {""}
-                className="owl-carousel owl-theme skill-slider"
-                >
-                    <Carousel.Item>
-                    <div className='items'>
-                        <img src={meter1} alt="Images1"/>
-                        <h5>HTML + CSS</h5>
-                    </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                    <div className='items'>
-                        <img src={meter2} alt="Images2"/>
-                        <h5>Java Script</h5>
-                    </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                    <div className='items'>
-                        <img src={meter3} alt="Images3"/>
-                        <h5>React</h5>
-                    </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                    <div className='items'>
-                        <img src={meter3} alt="Images4"/>
-                        <h5>React native</h5>
-                    </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                    <div className='items'>
-                        <img src={meter2} alt="Images5"/>
-                        <h5>Node js</h5>
-                    </div>
-                    </Carousel.Item>
+                <Carousel fade
+                  responsive={responsive} 
+                  infinite={true}
+                  slide={false} 
+                  // nextIcon = {">"}
+                  // prevLabel ={""}
+                  // prevIcon = {"<"}
+                  // nextLabel = {""}
+                  className="owl-carousel owl-theme skill-slider"
+                  >
+                  <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={meter1}
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>HTML + CSS</h3>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={meter2}
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>Java Script</h3>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={meter2}
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>React</h3>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={meter3}
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>React native</h3>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={meter2}
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>Node js</h3>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+
                 </Carousel>
             </div>
             </Col>
