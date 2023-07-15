@@ -3,6 +3,7 @@ import {Banner} from "./components/Banner";
 import "./App.css";
 import { Skills } from "components/Skills";
 import { Projects } from "components/Projects";
+import { Contact } from "components/Contact";
 
 export const App = () =>  {
   return (
@@ -11,6 +12,7 @@ export const App = () =>  {
       <Banner />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
