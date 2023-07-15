@@ -391,15 +391,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 40%;
+  height: 40px;
   margin: 0 auto;
+  margin-bottom: 30px;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 33.3333%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
