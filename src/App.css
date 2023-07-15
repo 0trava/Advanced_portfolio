@@ -658,3 +658,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  flex-direction: column;
  width: 30vw;
 }
+
+.hidden {
+  visibility: hidden;
+}

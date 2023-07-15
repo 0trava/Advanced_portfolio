@@ -1,5 +1,6 @@
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, } from "react-bootstrap";
 import { useEffect, useState } from "react";
+// import { HashLink } from 'react-router-hash-link';
 
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
@@ -26,7 +27,7 @@ export const NavBar = () => {
     
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
-        
+
     }
 
   return (
@@ -35,9 +36,9 @@ export const NavBar = () => {
             <Navbar.Brand href="/">
             <img src={logo} alt="Logo" />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav"> 
-                <span className="navbar-toggler-icon"></span>
-            </Navbar.Toggle>
+            {/* <Navbar.Toggle aria-controls="basic-navbar-nav hidden">
+            <span className="navbar-toggler-icon"></span>
+            </Navbar.Toggle> */}
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
                 <Nav.Link 
@@ -68,7 +69,9 @@ export const NavBar = () => {
                         <a href="https://www.facebook.com/sveta.grineva"><img src={navIcon2} alt="link_facebook" /></a>
                         <a href="https://github.com/0trava"><img src={navIcon3} alt="link_github" /></a>
                     </div>
-                    <button className="vvd" onClick={() => {}}><span>Let's Connect</span></button>
+
+                        <button className="vvd"><span>Let’s Connect</span></button>
+
                 </span>
             </Navbar.Collapse>
         </Container>
