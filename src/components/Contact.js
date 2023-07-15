@@ -42,6 +42,12 @@ export const Contact = () => {
                             <Col sm={6} className='px-1'>
                             <input type="text" value={formDetails.lastName} placeholder='Last Name' onChange={(e) => onFormUpdate('lastName', e.target.value)} />
                             </Col>
+                            <Col sm={6} className='px-1'>
+                            <input type="email" value={formDetails.email} placeholder='Email' onChange={(e) => onFormUpdate('email', e.target.value)} />
+                            </Col>
+                            <Col sm={6} className='px-1'>
+                            <input type="tel" value={formDetails.tel} placeholder='Phone #' onChange={(e) => onFormUpdate('tel', e.target.value)} />
+                            </Col>
                         </Row>
                     </form>
                 </Col>
