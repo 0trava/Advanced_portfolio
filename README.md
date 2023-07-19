@@ -4,7 +4,7 @@ Website for a video lesson for practicing practical skills in working in React. 
 
 
 
-<p>Link to the lesson with materials - <a href="https://www.youtube.com/watch?v=hYv6BM2fWd8">here</a></p>
+<p>Link to the lesson with materials   - <a href="https://www.youtube.com/watch?v=hYv6BM2fWd8">here</a></p>
 
 ![image](https://github.com/0trava/Advanced_portfolio/assets/102797527/44f776d1-142f-4433-bc0b-076752353dab)
 
