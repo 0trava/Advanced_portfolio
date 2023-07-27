@@ -20,36 +20,43 @@ export const Projects = () => {
           title: "TagGame",
           description: "Design & Development",
           imgUrl: projImg1,
+          link: "https://0trava.github.io/TagGame/",
         },
         {
           title: "Miami",
           description: "Practic project",
           imgUrl: projImg2,
+          link: "https://0trava.github.io/cool-gallery-miami/",
         },
         {
           title: "Natural Forest",
           description: "Practic project",
           imgUrl: projImg3,
+          link: "https://0trava.github.io/Natural_Forest/",
         },
         {
           title: "Mimino",
           description: "Group project",
           imgUrl: projImg4,
+          link: "https://gitdenlev.github.io/codeincalidor/",
         },
         {
           title: "Barbershop",
           description: "Development",
           imgUrl: projImg5,
+          link: "https://0trava.github.io/Barbershop/",
         },
         {
           title: "Filmoteka",
           description: "Group project",
           imgUrl: projImg6,
+          link: "https://0trava.github.io/Filmoteka_group-project/",
         },
         {
           title: "WebStudio",
           description: "Development",
           imgUrl: projImg7,
+          link: "https://0trava.github.io/goit-markup-hw-08/",
         },
 
 
@@ -60,8 +67,8 @@ export const Projects = () => {
         <Container>
             <Row>
                 <Col>
-                <h2>Projects</h2>
-                <p>Lorem Ipsum</p>
+                <h2>My Projects list</h2>
+                <p>Everything starts with an idea, but good realization comes with good developer</p>
 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -91,7 +98,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>One of the most interesting components of GTD is the Projects List. Having a list of projects is an amazing discovery for those who are accustomed to working with.</p>
+                      <p>Having a list of projects is a great way to show off your skills and abilities.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Always open to new projects and work.</p>
