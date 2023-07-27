@@ -51,6 +51,8 @@ export const Banner = () => {
       }
     }
 
+
+
     
   
     return (
@@ -64,9 +66,9 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm 0trava`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                     <p>I believe in logic and acquired skills.
-                        Most of all, I like to learn and understand something new, to solve the tasks.
+                    Most of all, I like to learn and understand something new, to solve the tasks.
                         I'm currently learning everything I can get my hands on.</p>
-                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                    <a href="#сonnect">Let’s Connect <ArrowRightCircle size={25} /></a>
                 </div>}
               </TrackVisibility>
             </Col>

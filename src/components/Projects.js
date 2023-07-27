@@ -6,6 +6,9 @@ import projImg4 from "../assets/img/project-img-4.png";
 import projImg5 from "../assets/img/project-img-5.png";
 import projImg6 from "../assets/img/project-img-6.png";
 import projImg7 from "../assets/img/project-img-7.png";
+import projImg8 from "../assets/img/project-img-8.png";
+import projImg9 from "../assets/img/project-img-9.png";
+import projImg10 from "../assets/img/project-img-10.png";
 import { ProjectCard } from './ProjectCard';
 import colorSharp from "../assets/img/color-sharp2.png";
 import { useState } from 'react';
@@ -68,6 +71,27 @@ export const Projects = () => {
           imgUrl: projImg7,
           link: "https://0trava.github.io/goit-markup-hw-08/",
           type: "Developer",
+        },
+        {
+          title: "Beautiful World",
+          description: "Practic project",
+          imgUrl: projImg8,
+          link: "https://0trava.github.io/Beautiful-World/",
+          type: "Practic work",
+        },
+        {
+          title: "Creative Scroll",
+          description: "Practic project",
+          imgUrl: projImg9,
+          link: "https://0trava.github.io/Site_CreativeScroll/",
+          type: "Practic work",
+        },
+        {
+          title: "Showcase-3d",
+          description: "Practic project",
+          imgUrl: projImg10,
+          link: "https://0trava.github.io/showcase-3d-effect/",
+          type: "Practic work",
         },
 
 

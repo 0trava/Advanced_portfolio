@@ -70,7 +70,7 @@ export const NavBar = () => {
                         <a href="https://github.com/0trava"><img src={navIcon3} alt="link_github" /></a>
                     </div>
 
-                        <button className="vvd"><span>Let’s Connect</span></button>
+                        <a className="vvd" href="#сonnect"><span>Let’s Connect</span></a>
 
                 </span>
             </Navbar.Collapse>
