@@ -386,6 +386,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  gap: 20px;
  justify-content: center;
 }
+
+.proj-img {
+  width: 516px;
+  height: 378px;
+  object-fit: cover;
+}
+
+
+
+
+
 .project p {
   color: #B8B8B8;
   font-size: 18px;

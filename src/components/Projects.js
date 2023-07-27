@@ -1,8 +1,12 @@
 import React from 'react';
 import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/project-img-1.png";
+import projImg2 from "../assets/img/project-img-2.png";
+import projImg3 from "../assets/img/project-img-3.png";
+import projImg4 from "../assets/img/project-img-4.png";
+import projImg5 from "../assets/img/project-img-5.png";
+import projImg6 from "../assets/img/project-img-6.png";
+import projImg7 from "../assets/img/project-img-7.png";
 import { ProjectCard } from './ProjectCard';
 import colorSharp from "../assets/img/color-sharp2.png";
 
@@ -13,29 +17,39 @@ import colorSharp from "../assets/img/color-sharp2.png";
 export const Projects = () => {
     const projects = [
         {
-          title: "Business Startup",
+          title: "TagGame",
           description: "Design & Development",
           imgUrl: projImg1,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Miami",
+          description: "Practic project",
           imgUrl: projImg2,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Natural Forest",
+          description: "Practic project",
           imgUrl: projImg3,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
+          title: "Mimino",
+          description: "Group project",
+          imgUrl: projImg4,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
+          title: "Barbershop",
+          description: "Development",
+          imgUrl: projImg5,
+        },
+        {
+          title: "Filmoteka",
+          description: "Group project",
+          imgUrl: projImg6,
+        },
+        {
+          title: "WebStudio",
+          description: "Development",
+          imgUrl: projImg7,
         },
 
 
