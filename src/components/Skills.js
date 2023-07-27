@@ -66,7 +66,7 @@ export const Skills = () => {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={`${meter2}?text=Second slide&bg=373940`}
+                    src={`${meter3}?text=Second slide&bg=373940`}
                     alt="Second slide"
                   />
                   <Carousel.Caption>
@@ -78,7 +78,7 @@ export const Skills = () => {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={`${meter2}?text=Third slide&bg=373940`}
+                    src={`${meter1}?text=Third slide&bg=373940`}
                     alt="Third slide"
                   />
                   <Carousel.Caption>
@@ -90,7 +90,7 @@ export const Skills = () => {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={meter3}
+                    src={meter2}
                     alt="First slide"
                   />
                   <Carousel.Caption>
