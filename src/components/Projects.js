@@ -9,6 +9,8 @@ import projImg7 from "../assets/img/project-img-7.png";
 import projImg8 from "../assets/img/project-img-8.png";
 import projImg9 from "../assets/img/project-img-9.png";
 import projImg10 from "../assets/img/project-img-10.png";
+import projImg11 from "../assets/img/project-img-11.png";
+import projImg12 from "../assets/img/project-img-12.png";
 import { ProjectCard } from './ProjectCard';
 import colorSharp from "../assets/img/color-sharp2.png";
 import { useState } from 'react';
@@ -93,7 +95,20 @@ export const Projects = () => {
           link: "https://0trava.github.io/showcase-3d-effect/",
           type: "Practic work",
         },
-
+        {
+          title: "Stuff-shop",
+          description: "Practic project",
+          imgUrl: projImg11,
+          link: "https://0trava.github.io/Stuff-shop/",
+          type: "Practic work",
+        },
+        {
+          title: "Contact Book",
+          description: "Developer",
+          imgUrl: projImg12,
+          link: "https://0trava.github.io/goit-react-hw-08-phonebook/",
+          type: "Developer",
+        },
 
       ];
 
