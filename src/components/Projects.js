@@ -80,6 +80,10 @@ export const Projects = () => {
     console.log(e.target.innerText);
 
     if (clickList) {
+      if (clickList === "All") {
+
+        return setProjectList(projects);
+      }
       const result = projects.filter(project => project.type === clickList);
       console.log(result);
       setProjectList(result);
@@ -103,6 +107,9 @@ export const Projects = () => {
 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav onClick={changeProjectList} variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                    <Nav.Item >
+                      <Nav.Link eventKey="all">All</Nav.Link>
+                    </Nav.Item>
                     <Nav.Item >
                       <Nav.Link eventKey="first">Developer</Nav.Link>
                     </Nav.Item>
