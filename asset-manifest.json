@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Advanced_portfolio/static/css/main.057be75f.css",
-    "main.js": "/Advanced_portfolio/static/js/main.2228464d.js",
+    "main.css": "/Advanced_portfolio/static/css/main.e4b516bf.css",
+    "main.js": "/Advanced_portfolio/static/js/main.8bd04442.js",
     "static/media/project-img-3.png": "/Advanced_portfolio/static/media/project-img-3.6bdddb23c0209ea16f1c.png",
     "static/media/project-img-4.png": "/Advanced_portfolio/static/media/project-img-4.262a616c185f7caa71cf.png",
     "static/media/project-img-6.png": "/Advanced_portfolio/static/media/project-img-6.a694ba2954a01e958df9.png",
+    "static/media/project-img-10.png": "/Advanced_portfolio/static/media/project-img-10.55042717b6c7c0442c78.png",
     "static/media/project-img-7.png": "/Advanced_portfolio/static/media/project-img-7.dccae03976b6beaeb8c8.png",
+    "static/media/project-img-8.png": "/Advanced_portfolio/static/media/project-img-8.8bb81ee13e29c6253d22.png",
     "static/media/color-sharp.png": "/Advanced_portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/project-img-5.png": "/Advanced_portfolio/static/media/project-img-5.a59bde03da3881eecf00.png",
+    "static/media/project-img-9.png": "/Advanced_portfolio/static/media/project-img-9.d2034f707af177a473ff.png",
     "static/media/color-sharp2.png": "/Advanced_portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/project-img-2.png": "/Advanced_portfolio/static/media/project-img-2.2fcf7b6699913bd5b685.png",
     "static/media/project-img-1.png": "/Advanced_portfolio/static/media/project-img-1.1d62b65de54f953d9ce8.png",
@@ -29,11 +32,11 @@
     "index.html": "/Advanced_portfolio/index.html",
     "static/media/nav-icon1.svg": "/Advanced_portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/nav-icon2.svg": "/Advanced_portfolio/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
-    "main.057be75f.css.map": "/Advanced_portfolio/static/css/main.057be75f.css.map",
-    "main.2228464d.js.map": "/Advanced_portfolio/static/js/main.2228464d.js.map"
+    "main.e4b516bf.css.map": "/Advanced_portfolio/static/css/main.e4b516bf.css.map",
+    "main.8bd04442.js.map": "/Advanced_portfolio/static/js/main.8bd04442.js.map"
   },
   "entrypoints": [
-    "static/css/main.057be75f.css",
-    "static/js/main.2228464d.js"
+    "static/css/main.e4b516bf.css",
+    "static/js/main.8bd04442.js"
   ]
 }
