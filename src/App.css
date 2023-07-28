@@ -136,9 +136,13 @@ span.navbar-text {
 }
 
 @media screen and (max-width: 840px) {
-  .social-icon, .vvd {
+  .social-icon, .vvd, .col-xl-5 {
     display: none;
 }
+
+  .banner_img {
+display: none;
+  }
 }
 
 
@@ -448,7 +452,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media screen and (max-width: 840px) {
   .project .nav.nav-pills, .proj-img{
     width: 80vw;
-}
+  }
+
+  .footer {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footer .social-icon {
+    display: flex;
+  }
+
+  .col-lg-12 {
+    display: none;
+  }
+
+  .col-md-6 {
+    width: 60vw;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.8vh;
+  }
+
+  .carousel-inner {
+    gap: 2vw;
+  }
 
 
 }
