@@ -55,7 +55,7 @@ export const Projects = () => {
         },
         {
           title: "Barbershop",
-          description: "Development",
+          description: "Developer",
           imgUrl: projImg5,
           link: "https://0trava.github.io/Barbershop/",
           type: "Developer",
@@ -69,7 +69,7 @@ export const Projects = () => {
         },
         {
           title: "WebStudio",
-          description: "Development",
+          description: "Developer",
           imgUrl: projImg7,
           link: "https://0trava.github.io/goit-markup-hw-08/",
           type: "Developer",
