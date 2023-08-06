@@ -2,7 +2,7 @@
 
 Website for a video lesson for practicing practical skills in working in React. In practice, was created a beautiful portfolio website with a beautiful design with animation.
 
-
+___________________________________________________
 
 <p>Link to the lesson with materials   - <a href="https://www.youtube.com/watch?v=hYv6BM2fWd8">here</a></p>
 
